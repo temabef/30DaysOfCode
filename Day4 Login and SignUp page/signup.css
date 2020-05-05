@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+.background{
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text {
+    margin-top: 45vh;
+    flex: 1;
+}
+
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-top: 25vh;
+    margin-left: 33%;
+    flex: 1;
+}
+
+.text h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+}
+
+h1 {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.text p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.username, .password, .fullname, .email {
+    border-bottom: 1.5px solid #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 1200px){
+    .text h1{
+    font-size: 30px;
+    font-weight: 300;
+    }
+
+    .text p{
+    font-size: 15px;    
+    }
+    .box{
+        margin-top: 35vh;
+        margin-left: 1%;
+        flex: 1;
+
+    }
+    input{
+        margin: 10px 0;
+        padding: 0px;
+
+    }
+}
